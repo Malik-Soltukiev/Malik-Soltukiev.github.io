@@ -1,0 +1,297 @@
+﻿* {
+	box-sizing: border-box;
+}
+
+body {
+	color: #161616;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.header {
+	margin-top: 75px;
+}
+
+.container {
+	width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+/*	@media (max-width: 1200px) {
+		.container {
+			width: 1200px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+*/
+
+
+.header h1 {
+	font-size: 42px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	margin: 0;
+	line-height: 40px;
+}
+
+	
+@media (max-width: 600px) {
+	* {
+		text-align: center;
+	}
+}
+
+@media (max-width: 600px) {
+    .header h1, .header h3 {
+		font-size: 32px;
+	}
+}
+
+
+
+.header h2 {
+	line-height: 41px;
+	font-size: 42px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	margin-top: 23px;
+	margin-bottom: 0;
+}
+
+.header h4 {
+	margin-top: 62px;
+	margin-bottom: 24px;
+	font-size: 36px;
+	font-weight: 300;
+	letter-spacing: 0.43px;
+	line-height: 43px;
+}
+
+.header img {
+	margin-right: 30px;
+}
+
+
+
+ /*ABOUT-ME*/ /*ABOUT-ME*/ /*ABOUT-ME*/
+ /*_________________________________*/
+ /*_______________________________*/
+ /*ABOUT-ME*//*ABOUT-ME/ABOUT-ME*/
+
+
+.about-me {
+	background: #e3f0f7;
+	min-width: 1200px;
+	padding: 80px 0;
+	margin-top: 70px;
+}
+
+
+
+.about-me_flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+	@media (max-width: 600px) {
+		.about-me_flex{
+			display: block;
+		}
+	}
+
+
+
+.about-me_text h3 {
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: 0.48px;
+	line-height: 30px;
+	margin-top: 16px;
+	margin-bottom: 36px;
+}
+
+
+.about-me_text p {
+	font-size: 28px;
+	font-weight: 300;
+	line-height: 45px;
+	letter-spacing: 0.34px;
+	width: 445px;
+}
+
+
+.my-skills h3 {
+	font-size: 28px;
+	line-height: 45px;
+	font-weight: 700;
+	letter-spacing: 0.34px;
+	margin: 0;
+	margin-top: 60px;
+	line-height: 28px;
+}
+
+
+.my-skills ul {
+	padding: 0;
+}
+
+
+.my-skills li {
+	list-style-type: none;
+	font-size: 28px;
+	font-weight: 300;
+	line-height: 45px;
+	letter-spacing: 0.34px;
+}
+
+
+
+ .about-me_img img {
+	width: 587px;
+	height: 539px;
+ }
+
+
+
+
+ /*ABOUT-ME*/ /*ABOUT-ME*/ /*ABOUT-ME*/
+ /*_________________________________*/
+ /*_______________________________*/
+ /*ABOUT-ME*//*ABOUT-ME/ABOUT-ME*/
+
+.my-works {
+	margin-top: 75px;
+}
+
+.my-works h2 {
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: 0.48px;
+	text-align: center;
+	margin: 0;
+	line-height: 38px;
+}
+
+@media (max-width: 600px) {
+	.my-works div {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 30px;
+		margin-bottom: 0;
+	}
+}
+
+.my-work-one {
+	width: 577px;
+	display: inline-block;
+	margin-right: 12px;
+	margin-bottom: 134px;
+	margin-top: 80px;
+}
+
+.my-work-two {
+	width: 577px;
+	display: inline-block;
+	margin-bottom: 134px;
+	margin-top: 80px;
+}
+
+.my-work-three {
+	width: 577px;
+	display: inline-block;
+	margin-right: 12px;
+}
+
+.my-work-for {
+	width: 577px;
+	display: inline-block;
+}
+
+.my-works h3 {
+	margin-left: 25px;
+	font-size: 34px;
+	font-weight: 700;
+	line-height: 31px;
+	letter-spacing: 0.41px;
+	margin-top: 27px;
+	margin-bottom: 17px;
+}
+
+.my-works p {
+	margin-left: 25px;
+	font-size: 28px;
+	font-weight: 300;
+	line-height: 25px;
+	letter-spacing: 0.34px;
+	margin-top: 0;
+	margin-bottom: 23px;
+}
+
+.my-works a {
+	margin-left: 25px;
+	line-height: 12px;
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 0.19px;
+	text-decoration: none;
+	color: #969696;
+	font-style: italic;
+}
+
+
+ /*ABOUT-ME*/ /*ABOUT-ME*/ /*ABOUT-ME*/
+ /*_________________________________*/
+ /*_______________________________*/
+ /*ABOUT-ME*//*ABOUT-ME/ABOUT-ME*/
+
+
+
+
+ .footer {
+ 	margin-top: 100px;
+ 	margin-bottom: 96px;
+ }
+
+
+ .footer h2 {
+	line-height: 38px;
+	font-size: 42px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	margin-bottom: 33px;
+	margin-top: 0;
+ }
+
+ .footer p {
+	line-height: 35px;
+	font-size: 36px;
+	font-weight: 100;
+	letter-spacing: 0.43px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+ .footer a  {
+ 	display: inline-block;
+ 	line-height: 34px;
+	font-weight: 100;
+	color: #4298e8;
+	text-decoration: none;
+	border-bottom: 2px solid #4298e8; 
+}
+
+/*@media (max-width: 600px) {
+	.footer {
+		margin-top: 100px;	
+	}
+}*/
+
+
+
+
+
